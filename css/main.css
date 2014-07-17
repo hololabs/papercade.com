@@ -1,0 +1,536 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background: #99b898;
+    color: #fff;
+    font-family: 'Avenir Next', Futura, Corbel, sans-serif;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+p {
+	margin: 0 0 1em;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Amatic SC', cursive;
+	font-weight: normal;
+}
+
+header {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 450px;
+	padding: 10px;
+	text-align: center;
+}
+
+header h1 {
+	text-indent: -9999px;
+	display: block;
+	width: 262px;
+	height: 131px;
+	max-width: 100%;
+	background: url('../img/logo.png') no-repeat;
+	float: left;
+	margin: 20px 0 0;
+	
+	background-position: center center !important;
+	background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    header h1 {
+		background: url('../img/logo@2x.png') no-repeat center center;
+		background-size: 262px 131px;
+		}
+}
+
+header .mascots {
+	display: block;
+	width: 151px;
+	height: 141px;
+	max-width: 100%;
+	margin: 10px 0 0;
+	float: right;
+	background: url('../img/mascots.png') no-repeat;
+	
+	background-size: cover;
+	background-position: center center !important;
+	background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    header .mascots {
+		background: url('../img/mascots@2x.png') no-repeat;
+		background-size: 151px 141px;
+		}
+}
+
+.content {
+	margin: 20px auto;
+	padding: 10px;
+	width: 100%;
+	max-width: 768px;
+	text-align: center;
+	clear: both;
+}
+
+.content h2 {
+	font-size: 48px;
+	padding: 0;
+	margin: 10px 0 0;
+}
+
+.longcontent {
+  margin: 20px auto;
+	padding: 10px;
+	width: 100%;
+	max-width: 768px;
+	clear: both;
+}
+
+.longcontent h2 {
+	font-size: 48px;
+	padding: 0;
+	margin: 10px 0 0;
+}
+
+.ipad {
+	width: 100%;
+	height: 349px;
+	margin: 0;
+	padding: 22px 0 0;
+	background: url('../img/ipad-mini.png') no-repeat center center;
+	background-size: 586px 349px;
+	position: relative;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    .ipad {
+		background: url('../img/ipad-mini@2x.png') no-repeat center center;
+		background-size: 586px 349px;
+		}
+}
+
+.ipad .screen {
+	background: #323232;
+	width: 399px;
+	height: 302px;
+	margin: 0 auto 0;
+}
+
+.column {
+	width: 50%;
+	float: left;
+	color: #666;
+	font-size: 18px;
+	padding: 0 15px 15px;
+	font-weight: 400;
+}
+
+.column.full {
+	width: 100%;
+}
+
+.action {
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.social {
+    list-style:none;
+    margin:0 auto;
+    line-height:2;
+}
+
+.social li {
+  float: left;
+}
+
+.button {
+	background: none;
+	color: #fff;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	border: none;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	position: relative;
+	top: 8px;
+}
+
+.button:hover {
+	color: #e44621;
+}
+
+input {
+	font-family: Futura, Corbel, sans-serif;
+	font-size: 15px;
+	padding: 5px 0px;
+	background: #fff;
+	border: none;
+	border-radius: 30px;
+	text-align: center;
+	margin: -15px 0 0;
+	position: relative;
+}
+
+input.email {
+	border: 2px solid #aaa;
+	outline: none;
+	width: 160px;
+}
+
+input.email:hover {
+	border: 2px solid #e44621;
+	color: #000;
+}
+
+input.email:active {
+	border: 2px solid #000;
+	color: #000;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.twitter {
+	padding: 20px 20px 20px 70px;
+	background: url('../img/twitter.png') no-repeat left center;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    .twitter {
+		background: url('../img/twitter@2x.png') no-repeat left center;
+		background-size: 57px 46px;
+		}
+}
+
+.facebook {
+	padding: 20px 10px 20px 40px;
+	background: url('../img/facebook.png') no-repeat left center;	
+}
+
+.pinterest {
+	padding: 20px 20px 20px 60px;
+	background: url('../img/pinterest.png') no-repeat left center;	
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    .pinterest {
+		background: url('../img/pinterest@2x.png') no-repeat left center;
+		background-size: 46px 46px;
+		}
+}
+
+.googleplus {
+	padding: 20px 10px 20px 60px;
+	background: url('../img/googleplus.png') no-repeat left center;		
+}
+
+
+footer {
+	color: #fff;
+	background: #666;
+	width: 100%;
+	padding: 15px;
+	margin: 0 0 0;
+	min-height: 150px;
+	clear: both;
+	font-weight: 200;
+	font-size: 18px;
+	text-align: center;
+}
+
+footer a {
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	color: #99b898;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #e44621;
+}
+
+.cmf {
+	width: 100%;
+	height: 40px;
+	display: block;
+	background: url('../img/cmf.png') no-repeat center center;
+	background-size: 158px 38px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    .cmf {
+		background: url('../img/cmf@2x.png') no-repeat center center;
+		background-size: 158px 38px;
+		}
+}
+
+
+/* Narrow */
+
+@media all and (max-width: 640px) {
+ 
+	header .mascots {
+		display: none;
+	}
+	
+	header h1 {
+		width: 80%;
+		margin: 0 10%;
+		padding: 0;
+		background-size: contain;
+	}
+	
+	.content h2 {
+		font-size: 36px;
+	}
+	
+	.ipad {
+		background-size: contain;
+		height: 250px;
+		padding: 12px 0 0;
+	}
+	
+	.ipad .screen {
+		width: 207px;
+		height: 156px;
+	}
+		
+	.column {
+		width: 100%;
+	}
+	
+}
+
+@media all and (max-width: 640px) {
+	.ipad {
+		background-size: contain;
+		height: 180px;
+	}
+
+}
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

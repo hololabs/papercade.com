@@ -1,0 +1,30 @@
+# papercade.com
+# The humans responsible for Papered
+                                                                     
+111          0111                       11       0    010            
+1111  11     011111  111111  1111     11111     11    111111   111111
+1 11  11     01 11  111111  11 11    11111     110   1111111  111111
+1 11  111    011110  11      11 11   11        0111   11111111 11    
+110  1111    0111    11     111111   11        1111   111 1111111    
+1    11111   011     11111  11111    11        11 11  111   11111111 
+1    11 11   011     11111  11111    11       011 11  111   11111111 
+1   111 11   011     11     11 11    11       111111  111  111111    
+1   1111111  011     11     11 011   111      11  111 111 1111111    
+1   11   11  011     111    11  111   111     11  111 11111111 1111  
+1   11   11  011     111111 11   11   111111 01    11 1111110  1111111
+1  11    11  011     111111 11   011   11111 11    11 111      111111 
+
+# TEAM 
+   Paul Warne -- @pdwarne
+   Mike Wozniewski -- @mikewoz
+   Stephane Leandre Paul -- @stephanepaul
+   Geoffrey Cooper --
+   Astrid Rosemarin -- @astridrosemarin
+
+# THANKS for building the papercade.com site
+
+    Neale Van Fleet -- @nealemvf
+
+# TECHNOLOGY COLOPHON
+    HTML5, CSS3
+    Normalize.css, HTML5 Boilerplate
