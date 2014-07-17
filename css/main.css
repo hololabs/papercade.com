@@ -17,8 +17,8 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
-    background: #99b898;
-    color: #fff;
+    background: #e45f4d;
+    color: #eee;
     font-family: 'Avenir Next', Futura, Corbel, sans-serif;
     position: relative;
     height: 100%;
@@ -39,9 +39,11 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+    border-top: 1px solid #ba4e3f;
+    /*margin: 0;*/
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 img {
@@ -82,23 +84,24 @@ h1, h2, h3, h4, h5, h6 {
 header {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 450px;
-	padding: 10px;
+	max-width: 640px;
+	padding: 0px;
 	text-align: center;
 }
 
 header h1 {
 	text-indent: -9999px;
 	display: block;
-	width: 262px;
-	height: 131px;
 	max-width: 100%;
-	background: url('../img/logo.png') no-repeat;
 	float: left;
-	margin: 20px 0 0;
 	
 	background-position: center center !important;
 	background-repeat: no-repeat;
+}
+
+header img {
+  max-width: 80%;
+
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
@@ -185,7 +188,7 @@ header .mascots {
 .column {
 	width: 50%;
 	float: left;
-	color: #666;
+	color: #333;
 	font-size: 18px;
 	padding: 0 15px 15px;
 	font-weight: 400;
@@ -196,7 +199,7 @@ header .mascots {
 }
 
 .action {
-	color: #fff;
+	color: #eee;
 	padding: 0;
 	margin: 0;
 }
@@ -217,7 +220,7 @@ header .mascots {
 
 .button {
 	background: none;
-	color: #fff;
+	color: #EEE;
 	font-family: 'Amatic SC', cursive;
 	font-size: 30px;
 	border: none;
@@ -229,7 +232,8 @@ header .mascots {
 }
 
 .button:hover {
-	color: #e44621;
+	color: #FFF;
+	text-decoration: underline;
 }
 
 input {
@@ -242,22 +246,23 @@ input {
 	text-align: center;
 	margin: -15px 0 0;
 	position: relative;
+	color: #e45f4d;
 }
 
 input.email {
 	border: 2px solid #aaa;
 	outline: none;
-	width: 160px;
+	width: 200px;
 }
 
 input.email:hover {
-	border: 2px solid #e44621;
-	color: #000;
+	border: 2px solid #666;
+	color: #e45f4d;
 }
 
 input.email:active {
-	border: 2px solid #000;
-	color: #000;
+	border: 2px solid #666;
+	color: #e45f4d;
 }
 
 input:focus::-webkit-input-placeholder {
@@ -313,12 +318,13 @@ footer {
 footer a {
 	font-family: 'Amatic SC', cursive;
 	font-size: 30px;
-	color: #99b898;
+	color: #e45f4d;
 	text-decoration: none;
 }
 
 footer a:hover {
 	color: #e44621;
+	text-decoration: underline;
 }
 
 .cmf {
@@ -347,7 +353,8 @@ footer a:hover {
 	
 	header h1 {
 		width: 80%;
-		margin: 0 10%;
+		/*margin: 0 10%;*/
+		margin: 0;
 		padding: 0;
 		background-size: contain;
 	}
