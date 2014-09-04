@@ -132,6 +132,8 @@ header .mascots {
 		}
 }
 
+
+
 .content {
 	margin: 20px auto;
 	padding: 10px;
@@ -139,6 +141,10 @@ header .mascots {
 	max-width: 768px;
 	text-align: center;
 	clear: both;
+}
+
+.content a {
+	color: #eee;
 }
 
 .content h2 {
