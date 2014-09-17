@@ -279,7 +279,7 @@ input {
 	text-align: center;
 	margin: -15px 0 0;
 	position: relative;
-	color: #e45f4d;
+	color: #d05b4b;
 }
 
 input.email {
@@ -290,12 +290,12 @@ input.email {
 
 input.email:hover {
 	border: 2px solid #666;
-	color: #e45f4d;
+	color: #d05b4b;
 }
 
 input.email:active {
 	border: 2px solid #666;
-	color: #e45f4d;
+	color: #d05b4b;
 }
 
 input:focus::-webkit-input-placeholder {
@@ -351,12 +351,12 @@ footer {
 footer a {
 	font-family: 'Amatic SC', cursive;
 	font-size: 30px;
-	color: #e45f4d;
+	color: #d05b4b;
 	text-decoration: none;
 }
 
 footer a:hover {
-	color: #e44621;
+	color: #d05b4b;
 	text-decoration: underline;
 }
 
