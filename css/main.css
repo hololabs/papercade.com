@@ -171,6 +171,29 @@ header .mascots {
 	margin: 10px 0 0;
 }
 
+.content table {
+  margin-left:auto; 
+  margin-right:auto;
+  margin-bottom: 20px;
+  border-collapse: separate;
+  border-spacing: 20px 0px;
+}
+
+.content table td {
+  font-size: 12px;
+  text-align: left;
+}
+
+.content table .tableHeading {
+  padding: 20px 0 5px 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.specialThanks {
+  font-size: 12px;
+  }
+
 .ipad {
 	width: 100%;
 	height: 349px;
