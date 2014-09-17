@@ -17,7 +17,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
-    background: #e45f4d;
+    background: #d05b4b;
     color: #eee;
     font-family: 'Avenir Next', Futura, Corbel, sans-serif;
     position: relative;
@@ -145,6 +145,10 @@ header .mascots {
 
 .content a {
 	color: #eee;
+}
+
+.longcontent a {
+  color: #eee;
 }
 
 .content h2 {
